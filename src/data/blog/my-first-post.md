@@ -14,7 +14,7 @@ timezone: "Asia/Shanghai"
 
 ## Brief Intro
 
-This is actually not the first time that I've blogged. Way back in August 2022, I already created a website using Jekyll, but it didn't go well and was soon forgotten. This year, 2026, I decided to start writing blogs again thanks to my friend [zhdbk3](zhdbk3.github.io). She gave me inspiration for the website.
+This is actually not the first time that I've blogged. Way back in August 2022, I already created a website using Jekyll, but it didn't go well and was soon forgotten. This year, 2026, I decided to start writing blogs again thanks to my friend [zhdbk3](https://zhdbk3.github.io). She gave me inspiration for the website.
 
 Although the old one is deprecated, you can still access its repo at [GitHub](https://www.github.com/idadwind1/idadwind1.github.io). It wasn't well made because I wasn't so good at programming at that time.
 
@@ -31,4 +31,4 @@ I do not have a fixed topic to write about, but I will say this website is going
 
 ## About me
 I was born in China, but at a very young age (I believe it was 5 or 6), I started speaking English, so English is like my second mother tongue. I started learning Japanese, on the other hand, only recently.
-I am terrible at writing (regardless of which language). I am bad at structuring my paragraphs. You might expect to see me struggling to explain something through text :( but that's fine, I believe I can write just as well as [she](zhdbk3.github.io) if I keep writing :3
+I am terrible at writing (regardless of which language). I am bad at structuring my paragraphs. You might expect to see me struggling to explain something through text :( but that's fine, I believe I can write just as well as [she](https://zhdbk3.github.io) if I keep writing :3
