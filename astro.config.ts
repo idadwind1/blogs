@@ -25,7 +25,7 @@ export default defineConfig({
     remarkPlugins: [remarkMath, remarkToc, [remarkCollapse, { test: "Table of contents" }]],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
-      themes: { light: "min-light", dark: "night-owl" },
+      themes: { light: "catppuccin-latte", dark: "catppuccin-frappe" },
       defaultColor: false,
       wrap: false,
       transformers: [
