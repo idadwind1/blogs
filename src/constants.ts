@@ -91,9 +91,9 @@ export const SHARE_LINKS: Social[] = [
 
 export const GISCUS: GiscusProps = {
   repo: "idadwind1/blogs",
-  repoId: "R_kgDONkqLVg",
+  repoId: "R_kgDORhe-sw",
   category: "General",
-  categoryId: "DIC_kwDONkqLVs4Cl_Yx",
+  categoryId: "DIC_kwDORhe-s84C4AoY",
   mapping: "pathname",
   reactionsEnabled: "0",
   emitMetadata: "0",

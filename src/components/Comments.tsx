@@ -3,8 +3,8 @@ import { GISCUS } from "@/constants";
 import { useEffect, useState } from "react";
 
 export default function Comments({
-  lightTheme = "light",
-  darkTheme = "dark",
+  lightTheme = "catppuccin_latte",
+  darkTheme = "catppuccin_frappe",
 }: { lightTheme?: Theme; darkTheme?: Theme }) {
   const [theme, setTheme] = useState<string>(() => {
     const stored = localStorage.getItem("theme");
