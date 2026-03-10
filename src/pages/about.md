@@ -30,11 +30,15 @@ My liked songs (the playlist is updated manually so it might be a little outdate
 
 *preview requires iframe*
 
+My steam: [IdadWind](https://steamcommunity.com/id/IdadWind)
+
 ## About The Site
 
 The site is hosted on [Vercel](https://vercel.com). The website theme is [Astro Paper](https://github.com/satnaing/astro-paper) with little tweaks by me. I used colors from [Catppuccin](https://catppuccin.com) (Frappe for dark and Latte for light, with pink accent)
 
 [Go to repo](https://www.github.com/idadwind1/blogs)
+
+Site Icon: [Yuuri](https://girls-last-tour.fandom.com/wiki/Yuuri)
 
 ## See Also
 [zhdbk3](https://zhdbk3.github.io) - she inspired me to build this website
