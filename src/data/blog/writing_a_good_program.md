@@ -1,7 +1,7 @@
 ---
 title: 如何写好一个程序
 author: idadwind
-pubDatetime: 2026-03-10T01:41:08Z
+pubDatetime: 2024-09-07T22:05:31+08:00
 slug: writing-a-good-program
 featured: false
 draft: false
