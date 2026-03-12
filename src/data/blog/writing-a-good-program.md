@@ -9,8 +9,9 @@ tags:
   - coding
   - cn
   - migrated-from-old-website
+  - guide
 description: 写好一个程序最重要的是学会规范编程
-timezone: "Asia/Shanghai"
+timezone: Asia/Shanghai
 ---
 
 # 写好一个程序
