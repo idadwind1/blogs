@@ -1,16 +1,18 @@
 ---
 title: template
 author: idadwind
-pubDatetime: 2026-03-10T01:41:08Z
-slug: template
+pubDatetime: 2024-09-07T22:05:31+08:00
+slug: 伪代码
 featured: false
 draft: true
 tags:
-  - something
-description: description
-timezone: "Asia/Shanghai"
+  - cn
+  - coding
+  - guide
+  - migrated-from-old-website
+description: 什么是伪代码
+timezone: Asia/Shanghai
 ---
-
 # 伪代码
 
 > 伪代码（Pseudocode）是一种类似于代码的语法，用于向人类表明某些代码语法是如何工作的，或者说明某项代码结构的设计。它是一种算法描述语言，使之可用于任何编程语言实现。伪代码必须结构清晰，代码简单，可读性好，并且类似自然语言。

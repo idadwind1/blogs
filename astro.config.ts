@@ -64,7 +64,7 @@ export default defineConfig({
     preserveScriptOrder: true,
     fonts: [
       {
-        name: "Google Sans Code",
+        name: "Jua",
         cssVariable: "--font-google-sans-code",
         provider: fontProviders.google(),
         fallbacks: ["monospace"],
