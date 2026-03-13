@@ -14,8 +14,6 @@ description: 写好一个程序最重要的是学会规范编程
 timezone: Asia/Shanghai
 ---
 
-# 写好一个程序
-
 写好一个程序最重要的是学会规范编程
 规范编程可以提高代码的可读性、可维护性和可扩展性
 换句话说，规范编程可以帮助别人（甚至是自己）快速理解代码的含义，让生产效率变快，同时也可以使软件维护成本降低，或者更快的和其他人对接
@@ -104,7 +102,7 @@ int main(){
 	```
   可以表示为Scratch中的：
   
-  ![Repeat 10 times: say Hello!](..\assets\Pasted image 20240829213101.png)
+  ![Repeat 10 times: say Hello!](@/assets/images/writing-a-good-program/20240829213101.png)
   
   如果有多嵌套，可以使用连续的缩进
 	
@@ -115,7 +113,7 @@ int main(){
   ```
   可以表示为：
   
-  ![Repeat 10 times: Repeat 10 times: say Hello!](..\assets\Pasted image 20240829213335.png)
+  ![Repeat 10 times: Repeat 10 times: say Hello!](@/assets/images/writing-a-good-program/20240829213335.png)
 - 空格 & 换行：
   一般在做一些运算，或用运算符连接数据的时候，会在连接处加空格
   同样的，不加这些空格并不会影响程序运行，但是可以增加代码的可读性
@@ -203,9 +201,9 @@ Tip: C#的命名一般遵循微软发布的.NET语言指南：[Capitalization Co
 - 以大驼峰作类名
 - 以大蛇形作为常量名
 - 以蛇形作为其他的命名
-- `private`成员一般会以`__`两个下划线开头
+- `private`成员一般会以`_`一个下划线开头
 #### Ruby
-同Python，但`private`成员一般不会以`__`开头
+同Python，但`private`成员一般不会以`_`开头
 ### 注释 - Commenting
 一般在编写代码的时候会编写注释，注释并不会被编译器或解析器识别需要执行的代码，相当于单纯给人看的文字，而不真正算是代码
 
@@ -261,7 +259,7 @@ cout << str;                    // outout str
 
 一般编写文档使用[**Markdown语言**](https://www.markdownguide.org/)，你现在正在看的这份文章就是由Markdown制作的
 
-可以考虑编写[README](https://en.wikipedia.org/wiki/README)或者搭建网站 *(很多博客或者文档的网站都是由免费的[GitHub Pages](https://pages.github.com/)托管，包括这篇文章的网站)*
+可以考虑编写[README](https://en.wikipedia.org/wiki/README)或者搭建网站 *(很多博客或者文档的网站都是由免费的[GitHub Pages](https://pages.github.com/)托管)*
 
 文档一般分为两个种类，**内部文档**和**外部文档**
 **内部文档**一般是内部员工用来理解源代码的 *(一些接口或类的用法)*，这种文档一般包含：
@@ -381,12 +379,12 @@ void CombineNumbers_CombineTwoNumbers_ReturnsSum() {
 
 优秀的异常处理案例：
 
-![BSoD](..\assets\Pasted image 20240830220358.jpg)
+![BSoD](@/assets/images/writing-a-good-program/20240830220358.jpg)
 *Windows最知名的错误提示: [BSoD](https://en.wikipedia.org/wiki/Blue_screen_of_death)(蓝屏死机)，会在系统层驱动或系统发生问题时显示。BSoD上标注了错误原因、系统的采取措施、和可能的处理方式，同时给出了错误代码，方便用户向开发者询问 (虽然没有多少人会去真正读它*
 
 反面教材《任务成功地失败了》:
 
-![Task Failed Successfully](..\assets\Pasted image 20240830221152.png)
+![Task Failed Successfully](@/assets/images/writing-a-good-program/20240830221152.png)
 
 
 简单的C#异常处理
@@ -408,8 +406,8 @@ catch (Exception ex){
 **注意：一定要在可能出现异常的地方加上try**
 
 **Tip: 现代IDE或者官方文档一般会说明方法可能抛出的异常：**
-![Visual Studio Dialog](..\assets\Pasted image 20240831174400.png)
-![Official Documentation](..\assets\Pasted image 20240831174430.png)
+![Visual Studio Dialog](@/assets/images/writing-a-good-program/20240831174400.png)
+![Official Documentation](@/assets/images/writing-a-good-program/20240831174430.png)
 *IDE和文档写明方法`StreamReader.ReadToEnd`可能抛出`OutOfMemoryException`或`IOException`*
 
 ### 版本控制 - Version Control
@@ -425,7 +423,7 @@ catch (Exception ex){
 
 - 直接拷贝覆盖，有一方的新代码就会被覆盖
   这里描述的冲突如图：
-  ![Conflict](..\assets\Pasted image 20240830225650.png)
+  ![Conflict](@/assets/images/writing-a-good-program/20240830225650.png)
 
   两方都有新的文件，而且不能确定哪些是新增的，所有文件都混在一起
 
