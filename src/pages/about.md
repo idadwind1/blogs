@@ -34,7 +34,7 @@ My steam: [IdadWind](https://steamcommunity.com/id/IdadWind)
 
 ## About The Site
 
-The site is hosted on [Vercel](https://vercel.com). The website theme is [Astro Paper](https://github.com/satnaing/astro-paper) with little tweaks by me. I used colors from [Catppuccin](https://catppuccin.com) (Frappe for dark and Latte for light, with pink accent)
+The site is hosted on [Vercel](https://vercel.com). The website theme is [Astro Paper](https://github.com/satnaing/astro-paper) with little tweaks by me. I used colors from [Catppuccin](https://catppuccin.com) (Frappe for dark and Latte for light, with pink accent). The font is called [Jua](https://fonts.google.com/specimen/Jua).
 
 [Go to repo](https://www.github.com/idadwind1/blogs)
 
