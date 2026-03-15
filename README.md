@@ -4,7 +4,7 @@ Personal blog built with [AstroPaper](https://github.com/satnaing/astro-paper) a
 
 Website is deployed on Vercel and it has a domain: [idadwind.fun](https://idadwind.fun/)
 
-[idadwind.fun](https://www.idadwind.fun)
+For more info, visit [about page](https://www.idadwind.fun/about)
 
 ## Development
 
