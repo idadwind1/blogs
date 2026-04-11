@@ -26,7 +26,7 @@ My spotify stats: [on stats.fm](https://stats.fm/31kthep35vg76oogx7k7c3drwepy)
 
 My liked songs (the playlist is updated manually so it might be a little outdated)
 
-<iframe src="https://open.spotify.com/embed/playlist/3UtOfyzlgw6PDPLqc8w6Xh?si=ykXX9Kl8RI29fp2WluiGmQ&pi=LxpkH04NSqeqC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3UtOfyzlgw6PDPLqc8w6Xh?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 *preview requires iframe*
 
