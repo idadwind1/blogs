@@ -10,7 +10,7 @@ Hi! my name is idadwind (or Idad Wind, i prefer the former one more).
 ```java
 public static class Me {
   public static String pronouns = "he/him";
-  public static String gender = "male🏳️‍🌈";(
+  public static String gender = "male🏳️‍🌈";
   public static String[] skills = {
     "Java", "Python", "C/C++", "Rust"
   };
