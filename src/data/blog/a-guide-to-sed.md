@@ -15,7 +15,8 @@ description: How I started using sed and how you should be using it too
 timezone: Asia/Shanghai
 ---
 Developed in 1973, [`sed`](https://en.wikipedia.org/wiki/Sed) has been, since I started using Linux, one of the coolest tools I found alongside `grep`, `watch`, etc. `sed` is an abbreviation for **s**tream **ed**itor. It is based on an editor called [`ed`](https://en.wikipedia.org/wiki/Ed_(text_editor)), an interactive editor that allows you to edit files by entering commands directly into the command line instead of opening a TUI like [`vi`](https://en.wikipedia.org/wiki/Vi_(text_editor)). While `ed` is no longer commonly used in production, `sed` is still highly relevant in modern text processing in CLI.
-`sed` is especially powerful when processing large files instantly—something many modern editors struggle with. I started using `sed` years ago when I wanted to open a large JSON file that is about several megabytes. My little `nvim` was lagging to death so I just gave up and used `sed`, which is not only fast but also simple.
+`sed` is especially powerful when processing large files instantly—something many modern editors struggle with.  
+I started using `sed` years ago when I wanted to open a large JSON file that was about several megabytes. My little `nvim` was lagging to death so I just gave up and used `sed`.
 > Fun fact: `sed` is part of the UNIX text processing trio: `grep`, `sed`, and `awk`. They ensured that fast and simple text manipulation can be done purely in CLI. They are all shipped by default with most Linux as part of the GNU utilities.
 ## Input Texts
 `sed` reads from a file or `stdin`, which means you can either process texts from a file or piped from another program:
