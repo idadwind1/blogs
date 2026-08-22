@@ -42,6 +42,7 @@ Site Icon: [Yuuri](https://girls-last-tour.fandom.com/wiki/Yuuri)
 
 ## See Also
 [zhdbk3](https://zhdbk3.github.io) - she inspired me to build this website
+[Fadouse](https://blog.turings.org) - my friend who is very interested in cybersecurity
 
 ## License
 MIT
