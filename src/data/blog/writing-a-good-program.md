@@ -4,7 +4,7 @@ author: idadwind
 pubDatetime: 2024-09-07T22:05:31+08:00
 slug: writing-a-good-program
 featured: false
-draft: false
+draft: true
 tags:
   - coding
   - cn
