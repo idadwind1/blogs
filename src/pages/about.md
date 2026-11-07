@@ -44,6 +44,7 @@ Site Icon: [Yuuri](https://girls-last-tour.fandom.com/wiki/Yuuri)
 - [zhdbk3](https://zhdbk3.github.io) - she inspired me to build this website
 - [Fadouse](https://blog.turings.org) - my friend who is very interested in cybersecurity
 - [D797](https://andante-assai.github.io) - my classmate
+- [shiogiri.com](shiogiri.com) - 汐雾の雾星面包房
 
 ## License
 MIT
