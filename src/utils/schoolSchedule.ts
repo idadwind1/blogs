@@ -94,13 +94,13 @@ export function getSchoolStatus(now = new Date()) {
     ...Object.keys(today).map(period => periods[Number(period)][1]),
   );
   if (day === "Fri" && minute >= lastClassEnd) {
-    return status("its weekend", "");
+    return status("its weekend!!", "");
   }
 
   for (const [period, title] of [
-    [6, "lunch break :3"],
-    [11, "flex period :3"],
-    [12, "dinner break :3"],
+    [6, "lunch break"],
+    [11, "flex period"],
+    [12, "dinner break"],
   ] as const) {
     const [start, end] = periods[period];
     if (minute >= start && minute < end) {
