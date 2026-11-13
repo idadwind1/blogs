@@ -88,7 +88,25 @@ export function getSchoolStatus(now = new Date()) {
     localTime,
   });
 
-  if (!today) return status("weekend break :3", "no classes today!");
+  if (!today) return status("weekend :3", "no classes today!");
+
+  const lastClassEnd = Math.max(
+    ...Object.keys(today).map(period => periods[Number(period)][1]),
+  );
+  if (day === "Fri" && minute >= lastClassEnd) {
+    return status("its weekend", "");
+  }
+
+  for (const [period, title] of [
+    [6, "lunch break :3"],
+    [11, "flex period :3"],
+    [12, "dinner break :3"],
+  ] as const) {
+    const [start, end] = periods[period];
+    if (minute >= start && minute < end) {
+      return status(title, `${formatTime(start)}–${formatTime(end)}`);
+    }
+  }
 
   const classes = [{ start: 480, end: 490, title: subjects.assembly }];
   for (const [period, subject] of Object.entries(today)) {
@@ -106,10 +124,9 @@ export function getSchoolStatus(now = new Date()) {
     );
   }
   const next = classes.find((item) => item.start > minute);
-  if (!next) return status("done with classes :3", "time to unwind!");
+  if (!next) return status("done with classes :3", "");
   const detail = `next: ${next.title} at ${formatTime(next.start)}`;
   if (minute < 480) return status("before school :3", detail);
-  if (minute >= 720 && minute < 765) return status("lunch break :3", detail);
   const inPeriod = periods.some(
     ([start, end], index) => index !== 6 && minute >= start && minute < end,
   );
