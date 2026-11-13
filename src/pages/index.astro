@@ -12,6 +12,7 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 import CCBadge from "@/components/CCBadge";
+import SchoolStatus from "@/components/SchoolStatus.astro";
 
 const posts = await getCollection("blog");
 
@@ -51,6 +52,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <p>
       you can navigate using the top bar, or heres some featured posts listed below. if you wanna know more about me click the About on the top &gt;w&lt;, or you can click Posts to see all my posts  &gt;w&lt;
       </p>
+      <SchoolStatus />
       <CCBadge client:load />
 
       <!-- <p class="mt-2"> -->

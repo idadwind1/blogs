@@ -1,0 +1,59 @@
+---
+// The live status is computed in the browser, never frozen at build time.
+---
+
+<aside
+  id="school-status"
+  class="my-6 rounded-xl border border-border bg-muted/40 p-5"
+  aria-labelledby="school-status-heading"
+>
+  <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+    <h2 id="school-status-heading" class="text-lg font-semibold">
+      what am i up to?
+    </h2>
+    <p data-school-clock class="text-xs opacity-70">Timezone: shanghai</p>
+  </div>
+  <div role="status" aria-live="polite" aria-atomic="true" class="mt-3">
+    <p data-school-title class="text-xl font-semibold text-accent">
+      checking my timetable...
+    </p>
+    <p data-school-detail class="mt-1 text-sm"></p>
+  </div>
+  <span class="text-sm">this time table might not work in holidays</span>
+  <noscript
+    ><p class="mt-2 text-sm">
+      Enable JavaScript to see my current class or break.
+    </p></noscript
+  >
+</aside>
+
+<script>
+  import { getSchoolStatus } from "@/utils/schoolSchedule";
+
+  let timer: ReturnType<typeof setInterval> | undefined;
+
+  function updateStatus() {
+    const card = document.querySelector("#school-status");
+    if (!card) return;
+    const status = getSchoolStatus();
+    for (const [selector, value] of [
+      ["[data-school-title]", status.title],
+      ["[data-school-detail]", status.detail],
+      ["[data-school-clock]", status.localTime],
+    ]) {
+      const element = card.querySelector(selector);
+      if (element && element.textContent !== value) element.textContent = value;
+    }
+  }
+
+  document.addEventListener("astro:page-load", () => {
+    clearInterval(timer);
+    if (!document.querySelector("#school-status")) return;
+    updateStatus();
+    timer = setInterval(updateStatus, 1000);
+  });
+  document.addEventListener("astro:before-swap", () => clearInterval(timer));
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) updateStatus();
+  });
+</script>
