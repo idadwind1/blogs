@@ -104,7 +104,7 @@ export function getSchoolStatus(now = new Date()) {
   ] as const) {
     const [start, end] = periods[period];
     if (minute >= start && minute < end) {
-      return status(title, `${formatTime(start)}–${formatTime(end)}`);
+      return status(title, `${formatTime(start)}-${formatTime(end)}`);
     }
   }
 
