@@ -1,0 +1,3 @@
+[submodule "public/NumberSmash"]
+	path = public/NumberSmash
+	url = https://github.com/idadwind1/NumberSmash
